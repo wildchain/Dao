@@ -1,0 +1,32 @@
+@import url('https://fonts.google.com/noto/specimen/Noto+Serif');
+
+.container {
+  background: linear-gradient(115deg, #0b8c75 0% 35%, #606060 35%) fixed;
+  color: white;
+  padding-bottom: 50px;
+}
+
+.main-text {
+  text-align: center;
+  font-weight: 700;
+  font-size: 60px;
+  padding-top: 100px;
+  padding-bottom: 70px;
+}
+
+.connect {
+  height: 70px;
+  width: 200px;
+  background: #0b8c75;
+  font-size: 20px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  margin-right: auto;
+  margin-left: auto;
+  border-style: none;
+  margin-bottom: 40px;
+  font-family: 'Playfair Display';
+  color: white;
+  border-radius: 3px;
+}

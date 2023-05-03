@@ -1,0 +1,48 @@
+@import url('https://fonts.google.com/noto/specimen/Noto+Serif');
+
+.nav-bar-title {
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-bar-title-text {
+  font-weight: bold;
+  font-size: 40px;
+  color: #92D050;
+  margin-left: 10px;
+}
+
+.nav-bar {
+  justify-content: space-between;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  padding-top: 50px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.nav-bar-mid {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.nav-bar-right {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.item {
+  text-decoration: none;
+  flex: auto;
+  /* background: #b4bac0; */
+  margin-left: 16px;
+  margin-right: 16px;
+  color: black;
+  font-size: 20px;
+  color: white;
+}

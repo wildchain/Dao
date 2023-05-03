@@ -1,0 +1,76 @@
+@import url('https://fonts.google.com/specimen/Nunito');
+
+.container3 {
+  background: linear-gradient(115deg, #0b8c75 0% 45%, #606060 45%) fixed;
+}
+
+.sec2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.left-info {
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+  margin-top: 5px;
+  margin-bottom: 50px;
+  background: #edf7f5;
+  height: 600px;
+  border-radius: 10px;
+  border-width: 10px;
+  border-style: solid;
+  border-color: #219d8033;
+  position: relative;
+}
+
+.mid-info {
+  width: 25%;
+  margin-top: 5px;
+  margin-bottom: 50px;
+  background: #edf7f5;
+  height: 600px;
+  border-radius: 10px;
+  border-width: 10px;
+  border-style: solid;
+  border-color: #219d8033;
+  position: relative;
+}
+
+.right-info {
+  width: 25%;
+  margin-top: 5px;
+  margin-bottom: 50px;
+  background: #edf7f5;
+  height: 600px;
+  border-radius: 10px;
+  border-width: 10px;
+  border-style: solid;
+  border-color: #219d8033;
+  position: relative;
+}
+
+li {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.create {
+  height: 50px;
+  width: 150px;
+  background: #606060;
+  font-size: 20px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  border-style: solid;
+  border-color: #0b8c75;
+  position: absolute;
+  bottom: 5%;
+  left: 27%;
+  color: white;
+  border-radius: 5px;
+}
