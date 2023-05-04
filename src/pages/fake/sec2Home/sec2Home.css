@@ -1,7 +1,7 @@
-@import url('https://fonts.google.com/specimen/Nunito');
+@import url("https://fonts.google.com/specimen/Nunito");
 
 .container3 {
-  background: linear-gradient(115deg, #0b8c75 0% 45%, #606060 45%) fixed;
+  background: linear-gradient(115deg, rgb(30, 30, 30) 0% 45%, #606060 45%) fixed;
 }
 
 .sec2 {

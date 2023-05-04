@@ -1,0 +1,29 @@
+@font-face {
+  font-family: "VisbyRound";
+  src: url("/fonts/VisbyRoundCF-Light.woff") format("opentype");
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: "VisbyRound";
+  src: url("/fonts/VisbyRoundCF-Regular.woff") format("opentype");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "VisbyRound";
+  src: url("/fonts/VisbyRoundCF-Medium.woff") format("opentype");
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "VisbyRound";
+  src: url("/fonts/VisbyRoundCF-Bold.woff") format("opentype");
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: "VisbyRound";
+  src: url("/fonts/VisbyRoundCF-Heavy.woff") format("opentype");
+  font-weight: 900;
+}

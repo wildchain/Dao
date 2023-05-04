@@ -1,7 +1,7 @@
-@import url('https://fonts.google.com/noto/specimen/Noto+Serif');
+@import url("https://fonts.google.com/noto/specimen/Noto+Serif");
 
 .container {
-  background: linear-gradient(115deg, #0b8c75 0% 35%, #606060 35%) fixed;
+  background: linear-gradient(115deg, rgb(30, 30, 30) 0% 35%, #606060 35%) fixed;
   color: white;
   padding-bottom: 50px;
 }
@@ -26,7 +26,7 @@
   margin-left: auto;
   border-style: none;
   margin-bottom: 40px;
-  font-family: 'Playfair Display';
+  font-family: "Playfair Display";
   color: white;
   border-radius: 3px;
 }

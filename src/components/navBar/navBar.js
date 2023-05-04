@@ -1,22 +1,17 @@
-import Container from 'react-bootstrap/Container';
-import Navbar from 'react-bootstrap/Navbar';
-import Nav from 'react-bootstrap/Nav';
-import algogreen from '../../images/algo.png';
-import './navBar.css';
+import Container from "react-bootstrap/Container";
+import Navbar from "react-bootstrap/Navbar";
+import Nav from "react-bootstrap/Nav";
+import algogreen from "../../images/algo.png";
+import "./navBar.css";
+import { ReactComponent as Logo } from "../../assets/logo.svg";
 
 const NavBar = () => {
   return (
     <Navbar bg="dark" variant="dark" expand="lg">
       <Container className="nav-bar">
         <Navbar.Brand href="/" className="nav-bar-title">
-          <img
-            alt=""
-            src={algogreen}
-            width="110"
-            height="149"
-            className="d-inline-block align-top"
-          />
-          <p className="nav-bar-title-text"> AlgoGreen</p>
+          <Logo />
+          <p className="nav-bar-title-text">Wildchain</p>
         </Navbar.Brand>
         <Nav className="nav-bar-mid">
           <Nav.Link href="/" className="item">
