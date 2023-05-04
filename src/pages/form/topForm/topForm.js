@@ -1,21 +1,28 @@
-import NavBar from '../../../components/navBar/navBar';
-import './topForm.css';
+import NavBar from "../../../components/navBar/navBar";
+import "./topForm.css";
 
 const TopForm = ({
   isConnectedToPeraWallet,
   handleConnectWalletClick,
-  handleDisconnectWalletClick
+  handleDisconnectWalletClick,
 }) => {
   return (
     <body className="container">
       <NavBar />
-      <p className="main-text">Create Your DAO</p>
-      <p className='btm-text' style={{fontSize:'20px'}}>Mint tokens, set governance parameters, and deploy your DAO on-chain in minutes with our no/low-code setup process.</p>
+      <p className="main-text">Start Your Grant Application</p>
+      <p className="btm-text" style={{ fontSize: "20px" }}>
+        Create a Grant, Set Funding Goals, Create Multiple Funding Rounds. You
+        Decide!
+      </p>
       <button
         className="connect"
-        onClick={isConnectedToPeraWallet ? handleDisconnectWalletClick : handleConnectWalletClick}
+        onClick={
+          isConnectedToPeraWallet
+            ? handleDisconnectWalletClick
+            : handleConnectWalletClick
+        }
       >
-        {isConnectedToPeraWallet ? 'Disconnect' : 'Connect to Pera Wallet'}
+        {isConnectedToPeraWallet ? "Disconnect" : "Connect to Pera Wallet"}
       </button>
     </body>
   );
