@@ -61,18 +61,17 @@ For the Below Steps, follow the instructions from the docs provided. Note that i
 
 ##### Deploy Steps
 
-To know how the contracts should be setup, refer [DEPLOY_STEPS.md](https://github.com/Allo-Protocol/contracts/blob/main/docs/DEPLOY_STEPS.md)
+To know how the contracts should be setup, refer [DEPLOY_STEPS.md]
 
 
 ##### Chain Deployment List
 
-To know the addresses are deployed on which network. refer [CHAINS.md](https://github.com/Allo-Protocol/contracts/blob/main/docs/CHAINS.md)
-
+To know the addresses are deployed on which network. refer [CHAINS.md]
 ##### Development
 s
-To contribute to this project, fork the project and follow the instructions at [DEV.md](https://github.com/Allo-Protocol/contracts/blob/main/docs/DEV.md)
+To contribute to this project, fork the project and follow the instructions at [DEV.md]
 
-This is built and maintained using [hardhat](https://hardhat.org)
+This is built and maintained using [hardhat]
 
 ## General Setup
 
