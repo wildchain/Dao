@@ -11,6 +11,9 @@ All the deploy scripts will expect network param to know which network the contr
 | `fantom-testnet`   |
 | `mainnet`          |
 
+New!
+| `alfajores`        |
+
 
 ### Project Registry
 
