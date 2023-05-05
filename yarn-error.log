@@ -1,29 +1,30 @@
 Arguments: 
-  C:\Program Files\nodejs\node.exe C:\Users\owner\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js install
+  /Users/joash/.nvm/versions/node/v16.18.1/bin/node /Users/joash/.nvm/versions/node/v16.18.1/bin/yarn add @reduxjs
 
 PATH: 
-  C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Program Files\Docker\Docker\resources\bin;C:\Users\owner\AppData\Local\Programs\Python\Python311\Scripts\;C:\Users\owner\AppData\Local\Programs\Python\Python311\;C:\Users\owner\AppData\Local\Microsoft\WindowsApps;C:\Users\owner\AppData\Local\GitHubDesktop\bin;C:\Users\owner\AppData\Local\JetBrains\Toolbox\scripts;C:\Users\owner\AppData\Local\Google\Cloud SDK\google-cloud-sdk\bin;C:\Users\owner\AppData\Roaming\npm;C:\Users\owner\AppData\Local\Microsoft\WindowsApps;C:\Users\owner\AppData\Local\Programs\Microsoft VS Code\bin
+  /Users/joash/.nvm/versions/node/v16.18.1/bin:/Users/joash/opt/anaconda3/bin:/Users/joash/opt/anaconda3/condabin:/Library/Frameworks/Python.framework/Versions/3.9/bin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/share/dotnet:/usr/local/mysql/bin:~/.dotnet/tools:/Library/Apple/usr/bin:/Library/Frameworks/Mono.framework/Versions/Current/Commands:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin
 
 Yarn version: 
   1.22.19
 
 Node version: 
-  16.18.0
+  16.18.1
 
 Platform: 
-  win32 x64
+  darwin x64
 
 Trace: 
-  Error: https://registry.yarnpkg.com/@mui/icons-material/-/icons-material-5.11.11.tgz: ESOCKETTIMEDOUT
-      at ClientRequest.<anonymous> (C:\Users\owner\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:141517:19)
+  Error: https://registry.yarnpkg.com/@reduxjs: Request "https://registry.yarnpkg.com/@reduxjs" returned a 405
+      at Request.params.callback [as _callback] (/Users/joash/.nvm/versions/node/v16.18.1/lib/node_modules/yarn/lib/cli.js:66154:18)
+      at Request.self.callback (/Users/joash/.nvm/versions/node/v16.18.1/lib/node_modules/yarn/lib/cli.js:140890:22)
+      at Request.emit (node:events:513:28)
+      at Request.<anonymous> (/Users/joash/.nvm/versions/node/v16.18.1/lib/node_modules/yarn/lib/cli.js:141862:10)
+      at Request.emit (node:events:513:28)
+      at IncomingMessage.<anonymous> (/Users/joash/.nvm/versions/node/v16.18.1/lib/node_modules/yarn/lib/cli.js:141784:12)
       at Object.onceWrapper (node:events:627:28)
-      at ClientRequest.emit (node:events:513:28)
-      at TLSSocket.emitRequestTimeout (node:_http_client:839:9)
-      at Object.onceWrapper (node:events:627:28)
-      at TLSSocket.emit (node:events:525:35)
-      at TLSSocket.Socket._onTimeout (node:net:550:8)
-      at listOnTimeout (node:internal/timers:559:17)
-      at processTimers (node:internal/timers:502:7)
+      at IncomingMessage.emit (node:events:525:35)
+      at endReadableNT (node:internal/streams/readable:1358:12)
+      at processTicksAndRejections (node:internal/process/task_queues:83:21)
 
 npm manifest: 
   {
@@ -44,8 +45,10 @@ npm manifest:
       "react": "^18.2.0",
       "react-bootstrap": "^2.7.2",
       "react-dom": "^18.2.0",
+      "react-redux": "^8.0.5",
       "react-router-dom": "^6.10.0",
       "react-scripts": "5.0.1",
+      "redux": "^4.2.1",
       "web-vitals": "^2.1.0"
     },
     "scripts": {
@@ -1123,6 +1126,13 @@ Lockfile:
     version "7.21.0"
     resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.21.0.tgz#5b55c9d394e5fcf304909a8b00c07dc217b56673"
     integrity sha512-xwII0//EObnq89Ji5AKYQaRYiW/nZ3llSv29d49IuxPhKbtJoLP+9QUUZ4nVragQVtaVGeZrpB+ZtG/Pdy/POw==
+    dependencies:
+      regenerator-runtime "^0.13.11"
+  
+  "@babel/runtime@^7.12.1":
+    version "7.21.5"
+    resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.21.5.tgz#8492dddda9644ae3bda3b45eabe87382caee7200"
+    integrity sha512-8jI69toZqqcsnqGGqwGS4Qb1VwLOEp4hz+CXPywcvjs60u3B4Pom/U/7rm4W8tMOYEB+E9wgD0mW1l3r8qlI9Q==
     dependencies:
       regenerator-runtime "^0.13.11"
   
@@ -2297,6 +2307,14 @@ Lockfile:
     dependencies:
       "@types/node" "*"
   
+  "@types/hoist-non-react-statics@^3.3.1":
+    version "3.3.1"
+    resolved "https://registry.yarnpkg.com/@types/hoist-non-react-statics/-/hoist-non-react-statics-3.3.1.tgz#1124aafe5118cb591977aeb1ceaaed1070eb039f"
+    integrity sha512-iMIqiko6ooLrTh1joXodJK5X9xeEALT1kM5G3ZLhD3hszxBdIEd5C75U834D9mLcINgD4OyZf5uQXjkuYydWvA==
+    dependencies:
+      "@types/react" "*"
+      hoist-non-react-statics "^3.3.0"
+  
   "@types/html-minifier-terser@^6.0.0":
     version "6.1.0"
     resolved "https://registry.yarnpkg.com/@types/html-minifier-terser/-/html-minifier-terser-6.1.0.tgz#4fc33a00c1d0c16987b1a20cf92d20614c55ac35"
@@ -2485,6 +2503,11 @@ Lockfile:
     version "2.0.3"
     resolved "https://registry.yarnpkg.com/@types/trusted-types/-/trusted-types-2.0.3.tgz#a136f83b0758698df454e328759dbd3d44555311"
     integrity sha512-NfQ4gyz38SL8sDNrSixxU2Os1a5xcdFxipAFxYEuLUlvU2uDwS4NUpsImcf1//SlWItCVMMLiylsxbmNMToV/g==
+  
+  "@types/use-sync-external-store@^0.0.3":
+    version "0.0.3"
+    resolved "https://registry.yarnpkg.com/@types/use-sync-external-store/-/use-sync-external-store-0.0.3.tgz#b6725d5f4af24ace33b36fafd295136e75509f43"
+    integrity sha512-EwmlvuaxPNej9+T4v5AuBPJa2x2UOJVdjCtDHgcDqitUeOtjnJKJ+apYjVcAoBEMjKW1VVFGZLUb5+qqa09XFA==
   
   "@types/warning@^3.0.0":
     version "3.0.0"
@@ -5434,7 +5457,7 @@ Lockfile:
     resolved "https://registry.yarnpkg.com/hi-base32/-/hi-base32-0.5.1.tgz#1279f2ddae2673219ea5870c2121d2a33132857e"
     integrity sha512-EmBBpvdYh/4XxsnUybsPag6VikPYnN30td+vQk+GI3qpahVEG9+gTkG0aXVxTjBqQ5T6ijbWIu77O+C5WFWsnA==
   
-  hoist-non-react-statics@^3.3.1:
+  hoist-non-react-statics@^3.3.0, hoist-non-react-statics@^3.3.1, hoist-non-react-statics@^3.3.2:
     version "3.3.2"
     resolved "https://registry.yarnpkg.com/hoist-non-react-statics/-/hoist-non-react-statics-3.3.2.tgz#ece0acaf71d62c2969c2ec59feff42a4b1a85b45"
     integrity sha512-/gGivxi8JPKWNm/W0jSmzcMPpfpPLc3dY/6GxhX2hQ9iGj3aDfklV4ET7NjKpSinLpJ5vafa9iiGIEZg10SfBw==
@@ -8260,6 +8283,18 @@ Lockfile:
     resolved "https://registry.yarnpkg.com/react-lifecycles-compat/-/react-lifecycles-compat-3.0.4.tgz#4f1a273afdfc8f3488a8c516bfda78f872352362"
     integrity sha512-fBASbA6LnOU9dOU2eW7aQ8xmYBSXUIWr+UmF9b1efZBazGNO+rcXT/icdKnYm2pTwcRylVUYwW7H1PHfLekVzA==
   
+  react-redux@^8.0.5:
+    version "8.0.5"
+    resolved "https://registry.yarnpkg.com/react-redux/-/react-redux-8.0.5.tgz#e5fb8331993a019b8aaf2e167a93d10af469c7bd"
+    integrity sha512-Q2f6fCKxPFpkXt1qNRZdEDLlScsDWyrgSj0mliK59qU6W5gvBiKkdMEG2lJzhd1rCctf0hb6EtePPLZ2e0m1uw==
+    dependencies:
+      "@babel/runtime" "^7.12.1"
+      "@types/hoist-non-react-statics" "^3.3.1"
+      "@types/use-sync-external-store" "^0.0.3"
+      hoist-non-react-statics "^3.3.2"
+      react-is "^18.0.0"
+      use-sync-external-store "^1.0.0"
+  
   react-refresh@^0.11.0:
     version "0.11.0"
     resolved "https://registry.yarnpkg.com/react-refresh/-/react-refresh-0.11.0.tgz#77198b944733f0f1f1a90e791de4541f9f074046"
@@ -8402,6 +8437,13 @@ Lockfile:
     dependencies:
       indent-string "^4.0.0"
       strip-indent "^3.0.0"
+  
+  redux@^4.2.1:
+    version "4.2.1"
+    resolved "https://registry.yarnpkg.com/redux/-/redux-4.2.1.tgz#c08f4306826c49b5e9dc901dee0452ea8fce6197"
+    integrity sha512-LAUYz4lc+Do8/g7aeRa8JkyDErK6ekstQaqWQrNRW//MY1TvCEpMtpTWvlQ+FPbWCx+Xixu/6SHt5N0HR+SB4w==
+    dependencies:
+      "@babel/runtime" "^7.9.2"
   
   regenerate-unicode-properties@^10.1.0:
     version "10.1.0"
@@ -9538,6 +9580,11 @@ Lockfile:
     dependencies:
       querystringify "^2.1.1"
       requires-port "^1.0.0"
+  
+  use-sync-external-store@^1.0.0:
+    version "1.2.0"
+    resolved "https://registry.yarnpkg.com/use-sync-external-store/-/use-sync-external-store-1.2.0.tgz#7dbefd6ef3fe4e767a0cf5d7287aacfb5846928a"
+    integrity sha512-eEgnFxGQ1Ife9bzYs6VLi8/4X6CObHMw9Qr9tPY43iKwsPw8xE8+EFsf/2cFZ5S3esXgpWgtSCtLNS41F+sKPA==
   
   util-deprecate@^1.0.1, util-deprecate@^1.0.2, util-deprecate@~1.0.1:
     version "1.0.2"
