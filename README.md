@@ -1,10 +1,25 @@
-# Allo Procotol Contracts
+# Welcome to WildFund Demo Contracts
 
-This project is built using [hardhat](https://hardhat.org).
-All the contracts required to run / manage a round can be found here.
+If you are curious about the work done for our DEMO see Demo Branch->
+
+This project is inspired by the Allo Protocol seen here: https://docs.allo.gitcoin.co/getting-started/introduction
+
+Allo Protocol is essentially a set of DAO smart contracts that allows you to start public funding rounds for donations
+Currently the protocol natively supports chains like Fantom, Optimism , Ethereum etc 
+
+We have decided to be the 1st to implement it on Celo, an EVM Compatible Chain
 If you come across any vulnerabilties, do create an issue / raise a PR to help improve the contracts. ^_^
 
-## Directory Structure
+## Contract Work Done
+As we did not work directly with Allo, we have minted instances of their protocol on the Alfajores Testnet for Celo
+The contract addresses are as follows (note that we have not verified them as we are in the midst of doing so)
+
+Contract Adresses:
+
+
+## Directory Structure for the Allo Protocol
+
+This is purely for ease of reference for what the protcol does
 
 ```
 .
@@ -41,6 +56,8 @@ If you come across any vulnerabilties, do create an issue / raise a PR to help i
 - **Round**: created by a Program and deal with everything relating to running a round
 - **Voter** : wallet who cast a vote to a grant during the round
 
+##Celo Compatibility
+For the Below Steps, follow the instructions from the docs provided. Note that it is deployable on Alfajores by simply running the command Alfajores as the network perimeter. For Judges it could be more helpful to go through Deploy Steps Only
 
 ##### Deploy Steps
 
