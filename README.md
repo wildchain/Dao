@@ -129,40 +129,57 @@ The contract documentation has been generated using [primitive-dodoc](https://gi
 Since , allo protocol was not compatible with celo blockchain, we decided to port the protocol to celo and deploy the first allo contracts over alfajores network(celo-testnet). You can find the contract details below-
 
 ProgramFactory to 0x7D53F28D54D86e5a3afA2FaBcA9eAD7e9Dbb5314
+
 Deploying ProgramImplementation to 0x3a3C635DFB296C28e6eB77b5E16F330b6d30f8aA
+
 ProgramImplementation Contract Linked to ProgramFactory contract 0x2e105dc8de9508a5cf96a50b348b820491707a9f3fb7bb784d47bdc6f96344a3
 
 Deploying Upgradable QuadraticFundingVotingStrategyFactory to 0xE5d1Cd8CB29eA4E83e97C2991a99745849922769
+
 Deploying QuadraticFundingVotingStrategyImplementation to 0xC6F2C738464686c97De32703287D1B5669388485
+
 QuadraticFundingVotingStrategyImplementation Contract Linked to QuadraticFundingVotingStrategyFactory contract
 Txn hash 0x548a44c4b6e03a4d2edbd9b8baf8440aff2792e7873fa64dbd06d70201cb36aa
 
 Deploying Upgradable MerklePayoutStrategyFactory to 0xbDe3Bd14D5e65e95ca790899feA5B1E5556685b1
+
 Deploying MerklePayoutStrategyImplementation to 0x86bbD8e981Dc4D2F6368B976b2a089B244B8c809
+
 MerklePayoutStrategyImplementation Contract linked to Merkle Payout Strategy Contract 0x4e16be214827403ea8c9630b4e7d1133b576f4b6efd5d0fd76f206c509130684
 
 Deploying Upgradable RoundFactory to 0xA23ffE01381ffDa06Dcf30813EFAebe70B5D1F0E
+
 Deploying RoundImplementation to 0x0Bd5476c8fc1535B0b23E6B65f64EbCe315c2791
+
 RoundImplementation Contract linked to Round Contract 0xae7118256a376d5ca876b52348cc5ff63a3a3992fe1116712237b90e0b129656
 
 Deploying Upgradable AlloSettings to 0x7c9ee0553E9548A1ccB435D33b7e422828354819
+
 setting protocol fee percentage to: 5000, Txn hash: 0xd94404bd35ce58a02d120fd96e2047c44108f447156e2aa3429e8e207a4a37bd
 
 Deploying ProjectRegistry...
+
 tx hash 0xc740e4de5fd3b9c9d36b8e83f71d6da870f80a196d659bcaccdb6ddf6e08d5c1
+
 gas used: 606_600
+
 ProjectRegistry deployed to: 0xbE356Fe53E0277E596a66fBf330FDe0639302001
 
 programContract -Txn hash: 0x6ac8bf8651cb74bd08c1812b8f5a1c47e718322448e070d3b69ffbbf689cecec
+
 Program created:  0xA54c2C524b5Ff9f6cf7b3e57EF0aD303C0dB6Fe4
 
 QFContract -  Txn hash: 0x3e8100ac4997d7323554a4df628b1b4b7df802616ac70fccb6ffa3f89cf3935f
+
 QF Voting contract created:  0x5a558B888AD0bC96B33D4b59D21A5dce5DAd3218
 
-payoutStrategContract -Txn hash: 0x589058bf1507563273dba8c0c7be47ecb8da3d9391d3e8d6977527231d328bdYYy  Merkle Payout contract created:  0x9Ce08C1184C53Cf333b48A50B9f89c5D2793F45D
+payoutStrategContract -Txn hash: 0x589058bf1507563273dba8c0c7be47ecb8da3d9391d3e8d6977527231d328bdYYy
+
+Merkle Payout contract created:  0x9Ce08C1184C53Cf333b48A50B9f89c5D2793F45D
 
 roundContract - Txn hash: 0x50dc68da2bb3ddba3ecb085f9715bb332216ffcda063e3e3719cbe2ed3b529a8
- Round created:  0x80A999D66F4D58762EdA069fa7F21643D480a9D7
+
+Round created:  0x80A999D66F4D58762EdA069fa7F21643D480a9D7
  
 
 
